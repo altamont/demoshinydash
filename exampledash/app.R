@@ -12,7 +12,8 @@ ui <- dashboardPage(skin = "red",
   dashboardBody(
     # Boxes need to be put in a row (or column)
     tags$head(
-      tags$link(rel = "stylesheet", type = "text/css", href = "custom.css")
+      tags$link(rel = "stylesheet", type = "text/css", href = "custom.css"),
+      tags$script(src = "myscript.js")
       ),
       
     fluidRow(
